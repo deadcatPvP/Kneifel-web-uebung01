@@ -27,6 +27,23 @@
     
     <h2>Freies Bild</h2>
     <figure>
+        <img src="img/bild1.jpg" width="400" height="auto" title="Freies Bild" alt="Ein freies Bild">
+        <figcaption>
+            Bild: <a href="#" target="_blank">Name des Urhebers/der Urheberin</a> | 
+            Link zum Bild: <a href="https://commons.wikimedia.org/wiki/File:Porsche_992_GT3_1X7A0323.jpg</a> |  
+            Titel: <a href="#" target="_blank">Titel des Bildes</a> | 
+            Lizenz: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
+        </figcaption>
     </figure>
+
+    <script>
+      const hobbys = ["Lesen", "Programmieren", "Sport", "Vorname Nachname"];
+      const liste = document.getElementById("liste-hobbys");
+      hobbys.forEach(h => {
+        let li = document.createElement("li");
+        li.textContent = h;
+        liste.appendChild(li);
+      });
+    </script>
 </body>
 </html>
